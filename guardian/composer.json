@@ -1,0 +1,23 @@
+{
+    "name": "seu-usuario/seu-projeto",
+    "description": "Projeto PHP MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
