@@ -20,7 +20,7 @@ class Email {
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'joelson.reis@ifpb.edu.br';
-            $mail->Password = 'teste';
+            $mail->Password = 'testeGit';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
